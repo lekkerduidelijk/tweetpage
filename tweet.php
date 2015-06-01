@@ -1,7 +1,7 @@
 <?php
 include("inc/header.php");
 
-require_once('api/TwitterAPIExchange.php');
+require_once('twitter-api-php/TwitterAPIExchange.php');
 
 // Access tokens from Twitter - - see: https://dev.twitter.com/apps/
 $settings = array(
